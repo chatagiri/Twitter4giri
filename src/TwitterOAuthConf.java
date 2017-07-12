@@ -13,10 +13,10 @@ class TwitterOAuthConf {
     private TwitterStreamFactory streamFactory;
 
     TwitterOAuthConf(){
-        cb.setOAuthConsumerKey("QxKBOV8ZWi2lHl5wWCqiuMV7X");
-        cb.setOAuthConsumerSecret("hys7csFC5int54KiQPbnynFojsD0xDjxWunnTc2latzeE3AFMP");
-        cb.setOAuthAccessToken("2476331220-pI9zPxpoSizVroXk3L1cdLx1xsFKzWF5ixstvBx");
-        cb.setOAuthAccessTokenSecret("4wvnsorpE82z0QAfz01a0bI9JDKcktaRpd6ksy9rvxBql");
+        cb.setOAuthConsumerKey("");
+        cb.setOAuthConsumerSecret("");
+        cb.setOAuthAccessToken("");
+        cb.setOAuthAccessTokenSecret("");
     }
 
     TwitterStream getStream(){
