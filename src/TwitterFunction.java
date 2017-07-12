@@ -6,7 +6,9 @@ import java.io.File;
 
 class TwitterFunction {
 
-    private Twitter twitter = TwitterFactory.getSingleton();
+    private TwitterOAuthConf oAuthConf = new TwitterOAuthConf();
+
+    private Twitter twitter = oAuthConf.getTwitter();
     private long collageId;
     private boolean collageFlag = false;
 
